@@ -22,7 +22,7 @@ public class CRUD {
 
          Statement stmt = conn.createStatement();
 
-        /* 
+        
           stmt.execute("Create table Employees ("
          		+ "id INT PRIMARY KEY, "
          		+ "name VARCHAR(50), "
@@ -56,7 +56,7 @@ public class CRUD {
              
              System.out.println(id+" " + name +" "+ salary+ " " + " "+ dept );
          }       
-*/
+
         
          stmt.execute("DELETE FROM Employees WHERE id = 2");
          System.out.println("Deleted record with ID 2");
