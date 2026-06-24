@@ -46,7 +46,7 @@ public class CRUD {
 
           ResultSet rs = stmt.executeQuery("SELECT * FROM Employees");
         
-
+  // small change to commit
          // iterating in results
          while (rs.next()) {
              String name = rs.getString("name");
